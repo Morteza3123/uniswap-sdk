@@ -1,4 +1,4 @@
-const { ChainId, Fetcher, WETH, Route } = require('@uniswap/sdk')
+const { ChainId, Fetcher, WETH, Route, Trade, TokenAmount, TradeType } = require('@uniswap/sdk')
 
 const chainId = ChainId.MAINNET;
 const tokenAddress = '0x6b175474e89094c44da98b954eedeac495271d0f';
